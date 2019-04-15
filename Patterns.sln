@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern", "Pattern\Pattern.csproj", "{4E1EFC39-6EDA-413F-B223-B2FC6F06524E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{DE6E7E57-1A50-46F2-8AD5-7422D86C225B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observateur", "Observateur\Observateur.csproj", "{59ED2B27-C3A8-48B0-AD1E-B01D3EE2C30C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E1EFC39-6EDA-413F-B223-B2FC6F06524E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E1EFC39-6EDA-413F-B223-B2FC6F06524E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E1EFC39-6EDA-413F-B223-B2FC6F06524E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E1EFC39-6EDA-413F-B223-B2FC6F06524E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59ED2B27-C3A8-48B0-AD1E-B01D3EE2C30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59ED2B27-C3A8-48B0-AD1E-B01D3EE2C30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59ED2B27-C3A8-48B0-AD1E-B01D3EE2C30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59ED2B27-C3A8-48B0-AD1E-B01D3EE2C30C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59ED2B27-C3A8-48B0-AD1E-B01D3EE2C30C} = {DE6E7E57-1A50-46F2-8AD5-7422D86C225B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55479F95-A973-4376-8123-3081550FCA9E}

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E1EFC39-6EDA-413F-B223-B2FC6F06524E}</ProjectGuid>
+    <ProjectGuid>{59ED2B27-C3A8-48B0-AD1E-B01D3EE2C30C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Pattern</RootNamespace>
-    <AssemblyName>Pattern</AssemblyName>
+    <RootNamespace>Observateur</RootNamespace>
+    <AssemblyName>Observateur</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,14 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AffichageMeteo.cs" />
+    <Compile Include="DonneesMeteo.cs" />
+    <Compile Include="Interfaces\Affichage.cs" />
+    <Compile Include="Interfaces\ObservateurMeteo.cs" />
+    <Compile Include="Interfaces\Sujet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
